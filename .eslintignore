@@ -1,0 +1,5 @@
+# Implicit ignore rules, refer to https://eslint.org/docs/latest/use/configure/ignore
+# node_modules/
+
+dist
+coverage

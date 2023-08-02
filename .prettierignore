@@ -1,0 +1,15 @@
+# Ignore artifacts:
+build
+dist
+coverage
+
+# Ignore static:
+public
+
+# Default behavior: Ignore version control systems directories and node_modules
+# **/.git
+# **/.svn
+# **/.hg
+# **/node_modules
+
+

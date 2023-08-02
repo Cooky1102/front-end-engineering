@@ -1,0 +1,5 @@
+dist
+coverage
+
+# Default ignore rules, refer to disableDefaultIgnores(https://stylelint.io/user-guide/options/#disabledefaultignores)
+# node_modules
