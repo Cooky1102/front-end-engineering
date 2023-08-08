@@ -1,0 +1,8 @@
+{
+  "*.{vue,js,jsx,cjs,mjs,ts,tsx,ctx,mts}": [
+    "yarn run lint:eslint:fix",
+    "yarn run lint:prettier:fix"
+  ],
+  "*.{css,scss,vue}": ["yarn run lint:style:fix", "yarn run lint:prettier:fix"],
+  "*.{md,json,html}": ["yarn run lint:prettier:fix"]
+}

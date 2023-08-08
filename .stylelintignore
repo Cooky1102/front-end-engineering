@@ -1,5 +1,40 @@
+# Default ignore rules, refer to disableDefaultIgnores (https://stylelint.io/user-guide/options/#disabledefaultignores)
+# node_modules
+
+# directory
 dist
 coverage
+public
+src/types
+docker
+.cache
+.husky
+.vscode
 
-# Default ignore rules, refer to disableDefaultIgnores(https://stylelint.io/user-guide/options/#disabledefaultignores)
-# node_modules
+# file type
+*.js
+*.jsx
+*.cjs
+*.mjs
+*.ts
+*.tsx
+*.cts
+*.mts
+
+*.json
+*.md
+*.html
+
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+*.eot
+*.otf
+*.ttf
+*.ttc
+*.woff
+*.woff2

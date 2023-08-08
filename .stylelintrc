@@ -3,5 +3,9 @@
     "stylelint-config-recess-order",
     "stylelint-config-standard-scss",
     "stylelint-config-standard-vue"
-  ]
+  ],
+  "rules": {
+    "max-nesting-depth": 6,
+    "selector-max-id": 2
+  }
 }

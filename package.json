@@ -1,31 +1,30 @@
 {
   "name": "front-end-engineering",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "engines": {
-    "node": ">=15.14.0"
+    "node": ">=16.14.0"
   },
   "scripts": {
     "commit": "git-cz",
     "dev": "vite",
-    "build": "run-p lint:type build-only",
-    "build-only": "vite build",
-    "prepare": "husky install",
-    "test": "vitest",
+    "build": "vite build",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
     "test:silent": "vitest run --silent",
-    "lint:eslint": "eslint --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --cache --cache-location .cache/.eslintcache --ignore-path .eslintignore",
+    "lint:eslint": "npx eslint --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --cache --cache-location .cache/.eslintcache --ignore-path .eslintignore",
     "lint:eslint:fix": "yarn run lint:eslint --fix",
     "lint:eslint:all": "yarn run lint:eslint .",
     "lint:eslint:all:fix": "yarn run lint:eslint:all --fix",
     "lint:eslint:print": "eslint --print-config .eslintrc.cjs",
     "lint:type": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
     "lint:staged": "lint-staged",
-    "lint:prettier": "prettier --check --cache --cache-location .cache/.prettier-cache --ignore-unknown --ignore-path .prettierignore",
+    "lint:prettier": "npx prettier --check --cache --cache-location .cache/.prettier-cache --ignore-unknown --ignore-path .prettierignore",
     "lint:prettier:fix": "yarn run lint:prettier --write",
     "lint:prettier:all": "yarn run lint:prettier .",
     "lint:prettier:all:fix": "yarn run lint:prettier:all --write",
-    "lint:style": "stylelint --cache --cache-location .cache/.stylelintcache --ignore-path .stylelintignore",
+    "lint:style": "npx stylelint --cache --cache-location .cache/.stylelintcache --ignore-path .stylelintignore",
     "lint:style:fix": "yarn lint:style --fix",
     "lint:style:all": "yarn run lint:style \"**/*.{css,scss,vue}\"",
     "lint:style:all:fix": "yarn run lint:style:all --fix",
@@ -33,7 +32,7 @@
     "clean:build": "rimraf dist",
     "clean:eslint": "rimraf .cache/.eslintcache",
     "clean:prettier": "rimraf .cache/.prettier-cache",
-    "clean:style": "rimraf .cache/.stylelintcache",
+    "clean:stylelint": "rimraf .cache/.stylelintcache",
     "preview": "vite preview"
   },
   "dependencies": {
