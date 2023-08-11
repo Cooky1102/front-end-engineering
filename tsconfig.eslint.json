@@ -1,0 +1,16 @@
+// https://typescript-eslint.io/linting/typed-linting/
+// https://typescript-eslint.io/packages/parser/#project
+{
+  "extends": "./tsconfig.app.json",
+  "include": [
+    "*.ts",
+    "src/**/*.ts",
+    "src/**/*.ts",
+    "src/**/*.vue",
+    "src/**/__tests__/*",
+    "scripts/**/*.ts",
+    ".eslintrc.cjs",
+    "commitlint.config.js"
+  ],
+  "exclude": []
+}

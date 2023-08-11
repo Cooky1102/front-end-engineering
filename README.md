@@ -1,6 +1,6 @@
-# COST-H5
+# Frontend-Engineering
 
-🎉 COST-H5 System
+🎉 Front-End-Engineering System
 
 ## Table of Contents
 
@@ -32,18 +32,6 @@
 [Pinia-img]: https://img.shields.io/badge/Pinia-f5ce38
 [Typescript-url]: https://www.typescriptlang.org/
 [Typescript-img]: https://img.shields.io/badge/Typescript-35495E?logo=typescript&labelColor=FFFFF0&color=D3D3D3
-[qiankun-url]: https://qiankun.umijs.org/
-[qiankun-img]: https://img.shields.io/badge/Qiankun-5a47a0
-[PWA-url]: https://web.dev/progressive-web-apps/
-[PWA-img]: https://img.shields.io/badge/PWA-%20?logo=pwa&labelColor=e774f9&color=D3D3D3
-[Sass-url]: https://sass-lang.com/
-[Sass-img]: https://img.shields.io/badge/Sass-%20?logo=sass&labelColor=FFFFF0&color=D3D3D3
-[Iconify-url]: https://iconify.design/
-[Iconify-img]: https://img.shields.io/badge/Iconify-35495E?logo=iconify&labelColor=0f6090&color=D3D3D3
-[Windi-css-url]: https://sass-lang.com/
-[Windi-css-img]: https://img.shields.io/badge/WindiCSS-35495E?logo=windicss&labelColor=FFFFF0&color=D3D3D3
-[Element-plus-url]: https://element-plus.org/zh-CN/
-[Element-plus-img]: https://img.shields.io/badge/ElementPlus-3b79e8
 [ESLint-url]: https://eslint.org/
 [ESLint-img]: https://img.shields.io/badge/ESLint-%20?logo=eslint&labelColor=442ab9&color=D3D3D3
 [Stylelint-url]: https://stylelint.io/
@@ -60,12 +48,6 @@
 [![Vitest][Vitest-img]][Vitest-url]
 [![Pinia][Pinia-img]][Pinia-url]
 [![Typescript][Typescript-img]][Typescript-url]
-[![qiankun][qiankun-img]][qiankun-url]
-[![PWA][PWA-img]][PWA-url]
-[![Sass][Sass-img]][Sass-url]
-[![Iconify][Iconify-img]][Iconify-url]
-[![Windi-css][Windi-css-img]][Windi-css-url]
-[![Element-plus][Element-plus-img]][Element-plus-url]
 [![ESLint][ESLint-img]][ESLint-url]
 [![Stylelint][Stylelint-img]][Stylelint-url]
 [![Commitlint][Commitlint-img]][Commitlint-url]
